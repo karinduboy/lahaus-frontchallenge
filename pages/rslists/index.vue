@@ -27,10 +27,26 @@
 <script>
 export default {
   layout: 'app',
+
   data() {
     return {
       rs_lists: [],
       rs_items: [],
+    }
+  },
+  head() {
+    return {
+      title: 'LaHause | Mis Listas',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Los mejores inmuebles agrupados por listas',
+        },
+      ],
+      htmlAttrs: {
+        lang: 'es',
+      },
     }
   },
   async created() {

@@ -27,7 +27,7 @@ export default {
   },
   head() {
     return {
-      title: 'LaHause | Listas de Inmuebles',
+      title: 'LaHause | Inicio',
       meta: [
         {
           hid: 'description',
