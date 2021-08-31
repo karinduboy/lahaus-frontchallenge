@@ -16,19 +16,20 @@
     <LaHausLogo class="flex-none mr-2" />
     <LhName class="flex-none" />
     <ul class="hidden sm:flex-grow sm:flex sm:flex-row-reverse gap-10 mx-10">
-      <li>Antioquia</li>
-      <li>Cundinamarca</li>
+      <li class="hover:text-lh-primary hover:bg-lh-green-gray">Antioquia</li>
+      <li class="hover:text-lh-primary hover:bg-lh-green-gray">Cundinamarca</li>
     </ul>
-    <Nuxt-Link to="/" class="hidden sm:inline-block sm:flex-none sm:mx-2"
-      >Inicio</Nuxt-Link
-    >
     <Nuxt-Link
       to="/resources"
-      class="hidden sm:inline-block sm:flex-none sm:mx-2"
+      class="
+        hidden
+        sm:inline-block
+        sm:flex-none
+        sm:mx-2
+        hover:text-lh-primary
+        hover:bg-lh-green-gray
+      "
       >Recursos</Nuxt-Link
-    >
-    <Nuxt-Link to="/rslists" class="hidden sm:inline-block sm:flex-none sm:mx-2"
-      >Mis Listas</Nuxt-Link
     >
     <UserProfile class="hidden sm:inline-block sm:flex-none sm:mx-2" />
   </nav>
