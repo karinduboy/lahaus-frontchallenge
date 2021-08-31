@@ -25,9 +25,7 @@
 </template>
 
 <script>
-import NewList from '../../components/NewList.vue'
 export default {
-  components: { NewList },
   layout: 'app',
   data() {
     return {
