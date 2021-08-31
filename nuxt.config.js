@@ -42,7 +42,7 @@ export default {
   axios: {},
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
-    configPath: 'tailwindcss.config.js',
+    configPath: 'tailwind.config.js',
     exposeConfig: false,
     config: {}
   },

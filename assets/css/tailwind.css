@@ -1,17 +1,29 @@
+@import url(./fonts.css);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
-  html {
-    @apply bg-gray-100 text-transparent text-gray-800
+
+  html,
+  body {
+    @apply bg-gray-50 text-transparent text-lh-jungle-green m-0 font-silka;
   }
 
   h1 {
-    @apply text-2xl;
+    @apply text-2xl font-extrabold inline-block text-center;
   }
 
   h2 {
-    @apply text-xl;
+    @apply text-xl font-extrabold inline-block;
+  }
+
+  h3 {
+    @apply text-lg font-extrabold pt-4;
+  }
+
+  p {
+    @apply text-lh-green-gray font-light;
   }
 }
