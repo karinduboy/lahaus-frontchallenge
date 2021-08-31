@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2>{{ name }}</h2>
-    <p>{{ qty }} propiedades guardadas</p>
+    <h3 class="self-center">{{ name }}</h3>
+    <p class="font-base pt-3 pb-6">{{ qty }} propiedades guardadas</p>
   </div>
 </template>
 <script>
