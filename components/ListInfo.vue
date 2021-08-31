@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="self-center">{{ name }}</h3>
-    <p class="font-base pt-3 pb-6 cursor-pointer">
+    <p class="font-base pt-3 pb-6 cursor-pointer hover:text-lh-primary">
       {{ qty }} propiedades guardadas
     </p>
   </div>

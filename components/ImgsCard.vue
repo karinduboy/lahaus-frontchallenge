@@ -1,6 +1,6 @@
 <template>
-  <div class="relative w-full h-52 rounded-lg overflow-hidden">
-    <EmptyListImg v-if="qty === 0" class="rounded-lg object-fill" />
+  <div class="relative w-full h-52 rounded-xl overflow-hidden">
+    <EmptyListImg v-if="qty === 0" class="rounded-xl object-fill" />
     <div
       v-if="qty >= 1"
       class="
@@ -8,7 +8,7 @@
         z-30
         h-full
         border-2 border-white
-        rounded-lg
+        rounded-xl
         overflow-hidden
       "
       :class="iDiv1Classes"
@@ -28,7 +28,7 @@
         h-full
         top-0
         border-2 border-white
-        rounded-lg
+        rounded-xl
         overflow-hidden
       "
       :class="iDiv2Classes"
@@ -49,7 +49,7 @@
         top-0
         left-1/2
         border-2 border-white
-        rounded-lg
+        rounded-xl
         overflow-hidden
       "
       :class="iDiv3Classes"
@@ -71,6 +71,11 @@
           text-white
           font-silka font-medium
           text-lg
+          cursor-pointer
+          hover:p-1
+          hover:bg-green-100
+          hover:text-lh-primary
+          hover:rounded-md
         "
         >+{{ qty - 3 }}</span
       >

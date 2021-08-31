@@ -1,6 +1,6 @@
 <template>
   <div class="relative ml-8">
-    <p class="inline-block ml-8 text-lh-jungle-green font-extrabold">
+    <p class="inline-block ml-6 text-lh-jungle-green font-extrabold">
       Mi Perfil
     </p>
     <DownArrow class="inline-block w-8 h-4" />
