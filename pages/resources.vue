@@ -4,6 +4,9 @@
 
 <script>
 export default {
+  layout(context) {
+    return 'app'
+  },
   head() {
     return {
       title: 'LaHause | Recursos',
