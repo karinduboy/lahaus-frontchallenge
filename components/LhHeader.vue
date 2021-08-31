@@ -19,18 +19,61 @@
       <li>Antioquia</li>
       <li>Cundinamarca</li>
     </ul>
-    <Nuxt-Link to="/" class="hidden sm:inline-block sm:flex-none sm:mx-2"
+    <Nuxt-Link
+      to="/"
+      class="
+        hidden
+        sm:inline-block
+        sm:flex-none
+        sm:mx-2
+        cursor-pointer
+        p-2
+        rounded-lg
+        hover:bg-green-100
+        hover:text-lh-primary
+      "
       >Inicio</Nuxt-Link
     >
     <Nuxt-Link
       to="/resources"
-      class="hidden sm:inline-block sm:flex-none sm:mx-2"
+      class="
+        hidden
+        sm:inline-block
+        sm:flex-none
+        sm:mx-2
+        p-2
+        rounded-lg
+        hover:bg-green-100
+        hover:text-lh-primary
+      "
       >Recursos</Nuxt-Link
     >
-    <Nuxt-Link to="/rslists" class="hidden sm:inline-block sm:flex-none sm:mx-2"
+    <Nuxt-Link
+      to="/rslists"
+      class="
+        hidden
+        sm:inline-block
+        sm:flex-none
+        sm:mx-2
+        p-2
+        rounded-lg
+        hover:bg-green-100
+        hover:text-lh-primary
+      "
       >Mis Listas</Nuxt-Link
     >
-    <UserProfile class="hidden sm:inline-block sm:flex-none sm:mx-2" />
+    <UserProfile
+      class="
+        hidden
+        sm:inline-block
+        sm:flex-none
+        sm:mx-2
+        p-2
+        rounded-lg
+        hover:bg-green-100
+        hover:text-lh-primary
+      "
+    />
   </nav>
 </template>
 <script>
