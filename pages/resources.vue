@@ -1,5 +1,7 @@
 <template>
-  <h1>Acá irán los recursos que tiene cada usuario</h1>
+  <h1 class="my-52 text-center mx-auto w-full">
+    Acá irán los recursos que tiene cada usuario
+  </h1>
 </template>
 
 <script>
