@@ -18,7 +18,7 @@ https://kd-lahaus.herokuapp.com/
 
 > Espero disfruten la revisión de este challenge como yo he disfrutado su realización!
 
-### Gracias equipo de LaHaus por permitirme desafiarme día a día, en una semana conocí Vue.js, Nuxt.Js y TailwindCss y además deployé mi primera applicación sin ningún tipo de asesoria de un tutor (más que de los videos de la docu de Nuxtjs).
+### *Gracias equipo de LaHaus por permitirme desafiarme día a día, en una semana conocí Vue.js, Nuxt.Js y TailwindCss y además deployé mi primera applicación sin ningún tipo de asesoria de un tutor (más que de los videos de la docu de Nuxtjs).*
 
 ## Gracias Totales!
 Karin Duboy
